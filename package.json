@@ -1,0 +1,20 @@
+{
+  "name": "grpc",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.13.2",
+    "@grpc/proto-loader": "^0.7.13",
+    "@types/chalk": "^2.2.4",
+    "@types/inquirer": "^9.0.7",
+    "chalk": "^5.4.1",
+    "inquirer": "^12.5.0",
+    "prettyjson": "^1.2.5"
+  }
+}
