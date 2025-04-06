@@ -1,4 +1,4 @@
-### gRPC Todo App
+# gRPC Todo App
 
 This is a simple gRPC based client server cli todo learning project demonstrating how use gRPC connections
 
@@ -9,9 +9,9 @@ This is a simple gRPC based client server cli todo learning project demonstratin
 ``` 
 .
 ├── proto
-│   └── todo.proto         # gRPC service definitions
-├── index.ts              # Server implementation
-├── client.ts             # Interactive gRPC client
+│   └── todo.proto        # proto definition
+├── index.ts              # gRPC Server
+├── client.ts             # CLI gRPC client
 ├── package.json
 └── README.md
 ```
@@ -20,27 +20,25 @@ This is a simple gRPC based client server cli todo learning project demonstratin
 
 ## Getting Started
 
-# 1. Clone Repository
+### 1. Clone Repository
 
 ``` bash
 git clone https://github.com/SamTheTechi/gRPCTodo.git
 ```
 
-# 2. Install dependencies
+### 2. Install dependencies
 
 ``` bash
-cd gRPCTodo
-
-bun i
+cd gRPCTodo; bun install
 ```
 
-# 3. Start the gRPC Server
+### 3. Start the gRPC Server
 
 ``` bash
 bun run index.ts
 ```
 
-# 4. Run the Client CLI
+### 4. Run the Client CLI
 
 ``` bash
 bun run client.ts
